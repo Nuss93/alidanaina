@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.11dea76b.css",
-    "main.js": "/static/js/main.1f52ae91.js",
+    "main.css": "/static/css/main.c0bb91a4.css",
+    "main.js": "/static/js/main.96c10480.js",
     "static/media/back.png": "/static/media/back.03463f14801497482f6a.png",
     "static/media/header.png": "/static/media/header.2690fe707f8ba86f6a19.png",
     "static/media/aturcara.png": "/static/media/aturcara.8daa5c8db5428be1aff4.png",
@@ -24,11 +24,11 @@
     "static/media/waze-color.svg": "/static/media/waze-color.d2c39b37730261d69896c74930ab99fb.svg",
     "static/media/pin.svg": "/static/media/pin.12f7b1fa53cb3942f605d6495aa0d02b.svg",
     "index.html": "/index.html",
-    "main.11dea76b.css.map": "/static/css/main.11dea76b.css.map",
-    "main.1f52ae91.js.map": "/static/js/main.1f52ae91.js.map"
+    "main.c0bb91a4.css.map": "/static/css/main.c0bb91a4.css.map",
+    "main.96c10480.js.map": "/static/js/main.96c10480.js.map"
   },
   "entrypoints": [
-    "static/css/main.11dea76b.css",
-    "static/js/main.1f52ae91.js"
+    "static/css/main.c0bb91a4.css",
+    "static/js/main.96c10480.js"
   ]
 }
