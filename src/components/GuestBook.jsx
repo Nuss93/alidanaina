@@ -14,7 +14,7 @@ export default class GuestBook extends Component {
                 {SORT.map((data,index) => (
                     <div key={index} className="p-3"
                         style={{
-                            background:'#E3DDC2', borderRadius: '10px',
+                            background:'#CFD5DF', borderRadius: '10px',
                             marginBottom: index !== this.props.data.length - 1 ? '1rem' : '0',
                         }}
                     >

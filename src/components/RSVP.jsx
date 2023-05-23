@@ -146,7 +146,7 @@ export default class RSVP extends Component {
                     <div>
                         <Label for='pax'><span style={{fontSize:'1.3rem'}}>How many people are attending? (including yourself)</span></Label>
                         <Row className='m-1'>
-                            {this.state.paxOption.map((data,index) => <Col key={index} className="p-1" onClick={() => {this.selectPax(data)}}><Card body style={{color:'#884915', textAlign: 'center', backgroundColor: data === this.state.pax ? '#4A677D' : null}}>{data}</Card></Col>)}
+                            {this.state.paxOption.map((data,index) => <Col key={index} className="p-1" onClick={() => {this.selectPax(data)}}><Card body style={{color:data === this.state.pax ? '#CFD5DF' : '#4A677D', textAlign: 'center', backgroundColor: data === this.state.pax ? '#4A677D' : null}}>{data}</Card></Col>)}
                         </Row>
                     </div>: null
                 }
@@ -180,7 +180,7 @@ export default class RSVP extends Component {
             display = <Button color='default' onClick={this._save}>Confirm</Button>
         }
         if(loadButt === true){
-            display = <Button disabled color='primary' style={{display:'flex', alignItems:'center'}} onClick={this._save}><div>Saving</div><div className="buttonloader ml-2"></div></Button>
+            display = <Button disabled color='default' style={{display:'flex', alignItems:'center'}} onClick={this._save}><div>Saving</div><div className="buttonloader ml-2"></div></Button>
         }
 
         return display;
